@@ -11,5 +11,8 @@ a {
 }
 
 a:hover {
-	font-weight: 800;
+	padding: 2px;
+	padding-left: 7px;
+	background-color: lightgreen;
+	border-radius: 5px;
 }
