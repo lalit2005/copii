@@ -13,11 +13,11 @@ console.log(searchParams);
 
 if (navigator.clipboard) {
 	navigator.clipboard.writeText(searchParams.asd).then(
-		// setInterval(() => {
-		// 	window.history.back();
-		// }, 1700)
-		console.log("hi")
+		setInterval(() => {
+			window.history.back();
+		}, 1700)
 	);
+	console.log("hi");
 } else {
 	window.prompt(
 		"Sorry!! this website has no access to Clipbord API, please press `Ctrl/Cmd + C` and hit `Enter`",
