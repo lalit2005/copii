@@ -11,8 +11,23 @@ a {
 }
 
 a:hover {
-	padding: 2px;
-	padding-left: 7px;
+	padding: 3px;
 	background-color: lightgreen;
 	border-radius: 5px;
+}
+
+p {
+	font-size: 25px;
+}
+
+.logos {
+	max-width: 40vw;
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.custom {
+	max-height: 100px;
 }

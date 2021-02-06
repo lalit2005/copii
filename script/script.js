@@ -20,10 +20,10 @@ if (navigator.clipboard) {
 					window.history.back();
 				}, 1700)
 			)
-			.catch((e) => {
+			.catch((error) => {
 				window.prompt(
-					e +
-						"\n\nThis website has no access to Clipbord API, please press `Ctrl/Cmd + C` and hit `Enter`",
+					error.message +
+						"\n\nThis website either does not access to Clipbord API or the webpage is not focused. Please press `Ctrl/Cmd + C` and hit `Enter`",
 					searchParams.ct
 				);
 				setInterval(() => {
@@ -31,7 +31,8 @@ if (navigator.clipboard) {
 				}, 1700);
 			});
 	} else {
-		document.querySelector("#text").innerHTML = "No text to copy! 😐😐😐";
+		document.querySelector(".text").innerHTML = "No text to copy! 😐😐😐";
+		document.querySelector(".redirect-text").remove();
 	}
 	console.log("hi");
 } else {
@@ -42,6 +43,14 @@ if (navigator.clipboard) {
 }
 
 if (searchParams.tm && searchParams.tm == "blk") {
-	document.querySelector("body").style.backgroundColor = "black";
+	document.querySelector("body").style.backgroundColor = "#25282f";
 	document.querySelector("body").style.color = "white";
+	document.querySelector(".logo").src = "../assets/dark-logo.svg";
+}
+
+if (searchParams.lg) {
+	document.querySelector(".custom").src = searchParams.lg;
+} else {
+	document.querySelector(".custom").remove();
+	document.querySelector(".logos").style.display = "inline";
 }
