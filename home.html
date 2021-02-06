@@ -39,6 +39,11 @@
 			<hr />
 			<div class="copy-text-div">
 				<p>Text to copy</p>
+				<p class="alert">
+					⚠️ As of now the character `#` is not supported, so please
+					don't use it below ⚠️
+				</p>
+				<p class="alert">I will fix it as soon as possible</p>
 				<textarea
 					name="copyText"
 					placeholder="Paste the text/code here"
@@ -50,6 +55,13 @@
 			<hr />
 			<div class="logo-url-div">
 				<p>Custom logo URL <br />(optional)</p>
+				<p class="alert">
+					⚠️ If custom logo link doesn't work, please try to shorten
+					it. ⚠️
+				</p>
+				<p class="alert">
+					URI's such as `data:image/png...` will be supported soon
+				</p>
 				<input
 					type="url"
 					name="logo-url"
@@ -62,6 +74,43 @@
 				<button type="submit">Generate</button>
 			</div>
 		</form>
+		<div class="generated">
+			<h3>Click on any of below button to copy its markdown code</h3>
+			<p>This is how the button in markdown will also look like..</p>
+			<div class="generated-buttons">
+				<div class="copy">
+					<img
+						src="./assets/copy.svg"
+						alt="Copy"
+						onclick="handleCopyClick()"
+					/>
+				</div>
+				<div class="copy-above-code">
+					<img
+						src="./assets/copy-above-code.svg"
+						alt="Copy"
+						onclick="handleCopyAboveCodeClick()"
+					/>
+				</div>
+				<div class="copy-below-code">
+					<img
+						src="./assets/copy-below-code.svg"
+						alt="Copy"
+						onclick="handleCopyBelowCodeClick()"
+					/>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<h3>Hosted on Vercel ▲</h3>
+			<a href="https://github.com/lalit2005/copii">
+				<h3>Contribute on GitHub</h3>
+			</a>
+			<a class="black-text" href="https://github.com/lalit2005">
+				<h3>Made by Lalit</h3>
+			</a>
+		</footer>
 		<script src="./script/home.js"></script>
 	</body>
 </html>

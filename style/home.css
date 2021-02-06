@@ -13,8 +13,15 @@ html {
 	margin-top: 100px;
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-bottom: 200px;
 	overflow-x: hidden;
+}
+
+::-moz-selection {
+	background: #6effd8;
+}
+
+::selection {
+	background: #6effd8;
 }
 
 .logo {
@@ -100,6 +107,13 @@ hr {
 	margin-bottom: 20px;
 }
 
+.alert {
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 15px;
+	background-color: rgba(255, 0, 0, 0.185);
+}
+
 textarea {
 	padding: 5px;
 	border-radius: 5px;
@@ -134,6 +148,43 @@ textarea {
 	background-color: #7bd3ff;
 }
 
+footer {
+	margin: -10px;
+	margin-top: 40px;
+	padding: 100px;
+	background-color: #ddf3fe;
+	color: #f09333;
+}
+
+footer a {
+	text-decoration: none;
+	padding: 5px;
+	color: #405cfd;
+	text-decoration: underline;
+}
+
+.black-text {
+	color: #43850e;
+	text-decoration: underline;
+}
+
+.generated {
+	display: none;
+}
+
+.generated h3 {
+	margin-top: 50px;
+}
+
+.generated .generated-buttons {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+.generated-buttons img {
+	margin-top: 20px;
+}
+
 @media (min-width: 480px) {
 	.blob {
 		left: 30%;
@@ -145,3 +196,4 @@ textarea {
 		left: 40%;
 	}
 }
+/* [![copy](https://cdn.jsdelivr.net/gh/lalit2005/copii@master/assets/copy-below-code.svg)](https://copii.vercel.app/?ct=afdkjfgdijd¬Ω≈¬ß≈sdgogfkdfh%20;'fdgh&tm=blk&lg=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) */

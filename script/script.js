@@ -8,11 +8,12 @@ decodeURI(window.location.search)
 		searchParams[key] = value;
 		return values;
 	}, {});
-
+// ! ct === copy text
 console.log(searchParams);
 
 if (navigator.clipboard) {
 	if (searchParams.ct) {
+		// searchParams.ct = searchParams.ct.replaceAll("¬Ωπ", "#");
 		searchParams.ct = searchParams.ct.replaceAll("¬Ω≈", "&");
 		searchParams.ct = searchParams.ct.replaceAll("¬ß≈", "\n");
 		searchParams.ct = searchParams.ct.replaceAll("¬ßœ", "=");
