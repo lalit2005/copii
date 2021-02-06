@@ -7,7 +7,7 @@ document.querySelector("button").addEventListener("click", (e) => {
 	e.preventDefault();
 	let finalCopyText = convertText(copyTextInput.value);
 	validate(logoURL.value, copyTextInput.value);
-	let finalURL = `http://127.0.0.1:5500/?ct=${finalCopyText}&tm=${
+	let finalURL = `https:/copii.vercel.app/?ct=${finalCopyText}&tm=${
 		darkModeCheckbox.checked ? "blk" : "wt"
 	}`;
 	alert(finalURL);
