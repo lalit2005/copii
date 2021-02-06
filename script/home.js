@@ -9,7 +9,7 @@ document.querySelector("button").addEventListener("click", (e) => {
 	validate(logoURL.value, copyTextInput.value);
 	let finalURL = `https://copii.vercel.app/?ct=${finalCopyText}&tm=${
 		darkModeCheckbox.checked ? "blk" : "wt"
-	}`;
+	}&lg=${logoURL.value}`;
 	alert(finalURL);
 });
 
@@ -32,12 +32,20 @@ let validate = (url, copyText) => {
 let convertText = (copyText) => {
 	let copyTextArray = copyText.toString().split("");
 	if (copyTextArray.indexOf("\n") !== -1) {
-		// alert("contains new line");
 		copyText = copyText.replaceAll("\n", "¬ß≈");
 	}
 	if (copyTextArray.indexOf("&") !== -1) {
-		// alert(copyText.replaceAll("&", "¬Ω"));
 		copyText = copyText.replaceAll("&", "¬Ω≈");
+	}
+	if (copyTextArray.indexOf("=") !== -1) {
+		copyText = copyText.replaceAll("&", "¬Ωœ");
+	}
+	if (copyTextArray.indexOf("=") !== -1) {
+		copyText = copyText.replaceAll("\t", "¬Ωø");
 	}
 	return copyText;
 };
+
+function asdasd() {
+	console.log(finalURL);
+}
