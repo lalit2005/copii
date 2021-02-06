@@ -13,6 +13,8 @@ console.log(searchParams);
 
 if (navigator.clipboard) {
 	if (searchParams.ct) {
+		searchParams.ct = searchParams.ct.replaceAll("¬Ω≈", "&");
+		searchParams.ct = searchParams.ct.replaceAll("¬ß≈", "\n");
 		navigator.clipboard
 			.writeText(searchParams.ct)
 			.then(

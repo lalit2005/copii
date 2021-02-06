@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>COPII</title>
+		<link
+			rel="shortcut icon"
+			href="./assets/logo.svg"
+			type="image/x-icon"
+		/>
+		<link href="./style/home.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<img src="./assets/logo.svg" alt="" height="100" class="logo" />
+		<div class="blob-div">
+			<img src="./assets/blob.svg" alt="" class="blob" />
+		</div>
+		<h1 class="heading">Meet <span class="highlight">Copii</span></h1>
+		<h1 class="subheading">
+			Add a copy button in your GitHub Readme files📄 easily 🎉 <br />
+			with the help of <span class="highlight">Copii</span>
+		</h1>
+		<h2>Generate your own markdown copy button now</h2>
+
+		<form>
+			<div class="dark-mode-div">
+				<input
+					type="checkbox"
+					name="darkMode"
+					id="dark-mode-checkbox"
+					value="blk"
+				/>
+				<label for="dark-mode-checkbox" id="dark-mode-label">
+					Dark Mode
+				</label>
+			</div>
+			<hr />
+			<div class="copy-text-div">
+				<p>Text to copy</p>
+				<textarea
+					name="copyText"
+					placeholder="Paste the text/code here"
+					id="copy-textarea"
+					maxlength="800"
+					rows="10"
+				></textarea>
+			</div>
+			<hr />
+			<div class="logo-url-div">
+				<p>Custom logo URL <br />(optional)</p>
+				<input
+					type="url"
+					name="logo-url"
+					placeholder="Paste your logo URL"
+					id="logo-url"
+				/>
+			</div>
+			<hr />
+			<div class="submit-button-div">
+				<button type="submit">Generate</button>
+			</div>
+		</form>
+		<script src="./script/home.js"></script>
+	</body>
+</html>
