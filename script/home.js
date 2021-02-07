@@ -42,7 +42,7 @@ let convertText = (copyText) => {
 		copyText = copyText.replaceAll("&", "¬Ω≈");
 	}
 	if (copyTextArray.indexOf("=") !== -1) {
-		copyText = copyText.replaceAll("&", "¬Ωœ");
+		copyText = copyText.replaceAll("=", "¬Ωœ");
 	}
 	if (copyTextArray.indexOf("\t") !== -1) {
 		copyText = copyText.replaceAll("\t", "    ");

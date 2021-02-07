@@ -1,4 +1,4 @@
-# copii
+# Copii
 Copy button for GitHub Readme files 🎉 🎉 🎉  Ready to use
 
 
