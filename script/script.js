@@ -17,7 +17,6 @@ if (navigator.clipboard) {
 		searchParams.ct = searchParams.ct.replaceAll("¬Ω≈", "&");
 		searchParams.ct = searchParams.ct.replaceAll("¬ß≈", "\n");
 		searchParams.ct = searchParams.ct.replaceAll("¬ßœ", "=");
-		searchParams.ct = searchParams.ct.replaceAll("¬ßø", "\t");
 		navigator.clipboard
 			.writeText(searchParams.ct)
 			.then(

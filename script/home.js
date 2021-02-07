@@ -44,9 +44,6 @@ let convertText = (copyText) => {
 	if (copyTextArray.indexOf("=") !== -1) {
 		copyText = copyText.replaceAll("&", "¬Ωœ");
 	}
-	if (copyTextArray.indexOf("\t") !== -1) {
-		copyText = copyText.replaceAll("\t", "¬Ωø");
-	}
 	if (copyTextArray.indexOf(" ") !== -1) {
 		copyText = copyText.replaceAll(" ", "%20");
 	}
