@@ -41,7 +41,7 @@ if (navigator.clipboard) {
 	// console.log("hello");
 } else {
 	window.prompt(
-		"Sorry!! this website has no access to Clipbord API, please press `Ctrl/Cmd + C` and hit `Enter`",
+		"Sorry!! this website does not have access to Clipbord API, please press `Ctrl/Cmd + C` and hit `Enter`",
 		searchParams
 	);
 }
