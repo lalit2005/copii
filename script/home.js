@@ -50,9 +50,9 @@ let convertText = (copyText) => {
 	if (copyTextArray.indexOf(" ") !== -1) {
 		copyText = copyText.replaceAll(" ", "%20");
 	}
-	// if (copyTextArray.indexOf("#") !== -1) {
-	// 	copyText = copyText.replaceAll("#", "¬Ωπ");
-	// }
+	if (copyTextArray.indexOf("#") !== -1) {
+		copyText = copyText.replaceAll("#", "[hashtag]");
+	}
 	return copyText;
 };
 
@@ -81,4 +81,4 @@ let handleCopyBelowCodeClick = () => {
 		.catch((e) => alert(`${e.name}\n ${e.message}`));
 };
 
-console.log(finalURL);
+// console.log(finalURL);

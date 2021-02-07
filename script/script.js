@@ -9,7 +9,7 @@ decodeURI(window.location.search)
 		return values;
 	}, {});
 // ! ct === copy text
-console.log(searchParams);
+// console.log(searchParams);
 
 if (navigator.clipboard) {
 	if (searchParams.ct) {
@@ -39,7 +39,7 @@ if (navigator.clipboard) {
 		document.querySelector(".text").innerHTML = "No text to copy! 😐😐😐";
 		document.querySelector(".redirect-text").remove();
 	}
-	console.log("hi");
+	// console.log("hello");
 } else {
 	window.prompt(
 		"Sorry!! this website has no access to Clipbord API, please press `Ctrl/Cmd + C` and hit `Enter`",
