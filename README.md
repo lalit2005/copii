@@ -10,7 +10,6 @@ Every example below is fully functional, you can test it by clicking the buttons
 
 ![demo](https://bit.ly/copii-gif)
 
-
 ---
 ---
 

@@ -58,3 +58,7 @@ if (searchParams.lg) {
 	document.querySelector(".custom").remove();
 	document.querySelector(".logos").style.display = "inline";
 }
+
+if (!searchParams.ct && !searchParams.tm) {
+	window.location = "/home.html";
+}
