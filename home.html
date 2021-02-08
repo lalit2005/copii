@@ -10,6 +10,7 @@
 			type="image/x-icon"
 		/>
 		<link href="./style/home.css" rel="stylesheet" type="text/css" />
+		<!-- ! Remove comment on analytics while developing -->
 		<script type="text/javascript">
 			(function (c, l, a, r, i, t, y) {
 				c[a] =
@@ -36,6 +37,15 @@
 			Add a copy button in your GitHub Readme files📄 easily 🎉 <br />
 			with the help of <span class="highlight">Copii</span>
 		</h1>
+
+		<h2>How to use Copii 👇</h2>
+		<a href="https://bit.ly/copii-gif">
+			<img
+				class="demo"
+				src="https://bit.ly/copii-gif"
+				alt="https://github.com/lalit2005/copii"
+		/></a>
+
 		<h2>Generate your own markdown copy button now</h2>
 
 		<form>
@@ -46,17 +56,14 @@
 					id="dark-mode-checkbox"
 					value="blk"
 				/>
+				<br />
 				<label for="dark-mode-checkbox" id="dark-mode-label">
-					Dark Mode
+					Enable dark Mode for redirecting page while copying
 				</label>
 			</div>
 			<hr />
 			<div class="copy-text-div">
 				<p>Text to copy</p>
-				<p class="alert">
-					⚠️ As of now the character `#` is not supported, so please
-					don't use it below ⚠️
-				</p>
 				<p class="alert">`#` will be copied as [hashtag]</p>
 				<p class="alert">I will fix it as soon as possible</p>
 				<textarea
@@ -73,9 +80,6 @@
 				<p class="alert">
 					⚠️ If custom logo link doesn't work, please try to shorten
 					it. ⚠️
-				</p>
-				<p class="alert">
-					URI's such as `data:image/png...` will be supported soon
 				</p>
 				<input
 					type="url"
@@ -124,6 +128,9 @@
 			</a>
 			<a class="black-text" href="https://github.com/lalit2005">
 				<h3>Made by Lalit</h3>
+			</a>
+			<a class="black-text" href="https://lalit2005.hashnode.dev/copii">
+				<h3>How I made this</h3>
 			</a>
 		</footer>
 		<script src="./script/home.js"></script>
