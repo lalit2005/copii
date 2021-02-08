@@ -6,9 +6,14 @@ Every example below is fully functional, you can test it by clicking the buttons
 ---
 ---
 
-## How to use Copii 👇  
+## Demo 👇  
 
 ![demo](https://bit.ly/copii-gif)
+
+---
+
+## How to use Copii
+[Please watch demo here](https://copii.vercel.app/home)
 
 ---
 ---
