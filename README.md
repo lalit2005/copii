@@ -5,15 +5,61 @@ Every example below is fully functional, you can test it by clicking the buttons
 
 ---
 ---
+## Table of Contents
 
+  - [Features](#features)
+  - [Demo (GIF)](#demo-👇)
+  - [How to use Copii (Step by step guide) ](#how-to-use-copii-👇)
+  - [Default `Copy` button](#default-copy-button)
+  - [`Copy below code` button](#copy-below-code-button)
+  - [`Copy above code` button](#copy-above-code-button)
+---
+---
+## Features
+
+1. Dark mode for redirecting page
+2. Support for custom logo in redirecting page
+3. Can be used to copy upto 1,500 characters ( can vary depending upon the length of URL of custom logo ).
+4. And many more coming
+---
+---
 ## Demo 👇  
 
 ![demo](https://bit.ly/copii-gif)
 
 ---
 
-## How to use Copii
-[Please watch demo here](https://copii.vercel.app/home)
+## How to use Copii 👇
+
+- Head over to [Copii homepage](https://copii.vercel.app)
+
+- Scroll down to the form 
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612847025789/7z-4rHnFB.png)
+
+- Check the check box if you want Dark Mode in redirecting page ( optional )
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612773586539/1S9JyL-ua.png)
+
+- Enter the text/code you want to be copied when the user clicks on `Copy` button in README file
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612847152376/CfsFm9dEJ.png)
+
+- Enter the URL ( optional ) for custom logo in redirecting page
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612847412557/Xit599Pom.png)
+
+- Click on `Generate`
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612847520906/9dS9czuEu.png)
+
+- Now you will be able to see 3 buttons that you can use
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612847631173/w7IbIujvL.png)
+
+- Click on any of the button to copy its markdown code. When a user clicks on any of button in README or any other rendered markdown file, user will be taken to `https://copii.vercel.app/?ct=hi`( for example ) and the text/code gets copied to clipboard there. Now, the user will be redirected back to same part webpage/github readme back with the help of `History API`
+
+- Paste the markdown code in your markdown file/readme file and you are good to go 😲
 
 ---
 ---
@@ -113,9 +159,3 @@ export default async (req, res) => {
 
 *Code copied from https://leerob.io/snnippets*
 
-## Features
-
-1. Dark mode for redirecting page
-2. Support for custom logo in redirecting page
-3. Can be used to copy upto 1,500 characters ( can vary depending upon the length of URL of custom logo ).
-4. And many more coming
