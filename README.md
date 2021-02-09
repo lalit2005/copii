@@ -25,7 +25,7 @@ Every example below is fully functional, you can test it by clicking the buttons
 ---
 ## Demo 👇  
 
-![demo](https://bit.ly/copii-gif)
+[Demo](https://bit.ly/2YSQxj1)
 
 ---
 
@@ -102,7 +102,6 @@ export default async (req, res) => {
   return res.status(200).json(session);
 };
 ```
-*Code copied from https://leerob.io/snippets*
 
 ---
 ---
@@ -157,5 +156,4 @@ export default async (req, res) => {
 
 [![copy](https://cdn.jsdelivr.net/gh/lalit2005/copii@master/assets/copy-above-code.svg)](https://copii.vercel.app/?ct=import%20fetch%20from%20'isomorphic-unfetch';¬ß≈¬ß≈export%20default%20async%20(req,%20res)%20¬Ωœ>%20{¬ß≈%20%20const%20{%20email%20}%20¬Ωœ%20req.body;¬ß≈¬ß≈%20%20if%20(!email)%20{¬ß≈%20%20%20%20return%20res.status(400).json({%20error:%20'Email%20is%20required'%20});¬ß≈%20%20}¬ß≈¬ß≈%20%20try%20{¬ß≈%20%20%20%20const%20LIST_ID%20¬Ωœ%20process.env.MAILCHIMP_LIST_ID;¬ß≈%20%20%20%20const%20API_KEY%20¬Ωœ%20process.env.MAILCHIMP_API_KEY;¬ß≈%20%20%20%20const%20DATACENTER%20¬Ωœ%20API_KEY.split('-')[1];¬ß≈¬ß≈%20%20%20%20const%20data%20¬Ωœ%20{¬ß≈%20%20%20%20%20%20email_address:%20email,¬ß≈%20%20%20%20%20%20status:%20'subscribed'¬ß≈%20%20%20%20};¬ß≈¬ß≈%20%20%20%20const%20response%20¬Ωœ%20await%20fetch(¬ß≈%20%20%20%20%20%20`https://${DATACENTER}.api.mailchimp.com/3.0/lists/${LIST_ID}/members`,¬ß≈%20%20%20%20%20%20{¬ß≈%20%20%20%20%20%20%20%20body:%20JSON.stringify(data),¬ß≈%20%20%20%20%20%20%20%20headers:%20{¬ß≈%20%20%20%20%20%20%20%20%20%20Authorization:%20`apikey%20${API_KEY}`,¬ß≈%20%20%20%20%20%20%20%20%20%20'Content-Type':%20'application/json'¬ß≈%20%20%20%20%20%20%20%20},¬ß≈%20%20%20%20%20%20%20%20method:%20'POST'¬ß≈%20%20%20%20%20%20}¬ß≈%20%20%20%20);¬ß≈¬ß≈%20%20%20%20if%20(response.status%20>¬Ωœ%20400)%20{¬ß≈%20%20%20%20%20%20return%20res.status(400).json({¬ß≈%20%20%20%20%20%20%20%20error:%20`There%20was%20an%20error%20subscribing%20to%20the%20newsletter.%20Shoot%20me%20an%20email%20at%20[me@leerob.io]%20and%20I'll%20add%20you%20to%20the%20list.`¬ß≈%20%20%20%20%20%20});¬ß≈%20%20%20%20}¬ß≈¬ß≈%20%20%20%20return%20res.status(201).json({%20error:%20''%20});¬ß≈%20%20}%20catch%20(error)%20{¬ß≈%20%20%20%20return%20res.status(500).json({%20error:%20error.message%20||%20error.toString()%20});¬ß≈%20%20}¬ß≈};¬ß≈&tm=wt&lg=https://bit.ly/39UJ6xP)
 
-*Code copied from https://leerob.io/snnippets*
-
+*Code snippets copied from https://leerob.io/snnippets*
