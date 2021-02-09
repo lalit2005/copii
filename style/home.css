@@ -67,6 +67,19 @@ h1 {
 	margin-bottom: 100px;
 }
 
+.repo-link a {
+	text-decoration: none;
+	color: rgb(0, 89, 255);
+}
+
+.repo-link a:hover {
+	background-color: lightgreen;
+	padding: 3px;
+	border-radius: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
 .highlight {
 	background-color: rgb(179, 179, 255);
 	border-radius: 10px;
