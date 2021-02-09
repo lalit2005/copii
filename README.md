@@ -8,8 +8,8 @@ Every example below is fully functional, you can test it by clicking the buttons
 ## Table of Contents
 
   - [Features](#features)
-  - [Demo (GIF)](#demo-👇)
-  - [How to use Copii (Step by step guide) ](#how-to-use-copii-👇)
+  - [Demo (GIF)](#demo-)
+  - [How to use Copii (Step by step guide) ](#how-to-use-copii-)
   - Examples
     - [Default `Copy` button](#default-copy-button)
     - [`Copy below code` button](#copy-below-code-button)
