@@ -10,9 +10,10 @@ Every example below is fully functional, you can test it by clicking the buttons
   - [Features](#features)
   - [Demo (GIF)](#demo-👇)
   - [How to use Copii (Step by step guide) ](#how-to-use-copii-👇)
-  - [Default `Copy` button](#default-copy-button)
-  - [`Copy below code` button](#copy-below-code-button)
-  - [`Copy above code` button](#copy-above-code-button)
+  - Examples
+    - [Default `Copy` button](#default-copy-button)
+    - [`Copy below code` button](#copy-below-code-button)
+    - [`Copy above code` button](#copy-above-code-button)
 ---
 ---
 ## Features
