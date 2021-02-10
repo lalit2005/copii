@@ -20,8 +20,11 @@ if (navigator.clipboard) {
 		navigator.clipboard
 			.writeText(searchParams.ct)
 			.then(
-				setInterval(() => {
+				setTimeout(() => {
 					window.history.back();
+					setTimeout(() => {
+						window.close();
+					}, 200);
 				}, 1700)
 			)
 			.catch((error) => {
@@ -33,6 +36,7 @@ if (navigator.clipboard) {
 				setInterval(() => {
 					window.history.back();
 				}, 1700);
+				window.close();
 			});
 	} else {
 		document.querySelector(".text").innerHTML = "No text to copy! 😐😐😐";
