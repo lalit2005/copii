@@ -25,7 +25,7 @@ if (navigator.clipboard) {
 					setTimeout(() => {
 						window.close();
 					}, 200);
-				}, 1700)
+				}, 700)
 			)
 			.catch((error) => {
 				window.prompt(
