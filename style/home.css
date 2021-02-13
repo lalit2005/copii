@@ -13,6 +13,7 @@ html {
 	margin-left: 10px;
 	margin-right: 10px;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 ::-moz-selection {
@@ -67,6 +68,16 @@ h1 {
 	margin-bottom: 100px;
 }
 
+.demo-title h2 a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+.demo-title h2:hover {
+	background-color: blanchedalmond;
+}
+
 .repo-link {
 	font-size: 28px;
 }
@@ -84,6 +95,27 @@ h1 {
 	margin-right: 3px;
 }
 
+.cards {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 800px;
+}
+
+.card {
+	padding: 10px;
+	margin-bottom: 20px;
+	max-width: 250px;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.card h3 {
+	color: blue;
+}
+
 .highlight {
 	background-color: rgb(179, 179, 255);
 	border-radius: 10px;
@@ -98,6 +130,7 @@ form {
 	display: flex;
 	flex-direction: column;
 	margin-left: auto;
+	margin-bottom: 100px;
 	margin-right: auto;
 	font-size: 22px;
 	padding: 20px;
@@ -198,6 +231,7 @@ footer a {
 
 .generated {
 	display: none;
+	margin-bottom: 100px;
 }
 
 .generated h3 {
