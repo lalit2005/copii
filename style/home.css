@@ -70,12 +70,9 @@ h1 {
 
 .demo-title h2 a {
 	text-decoration: none;
+	max-width: 200px;
 	color: black;
 	padding: 10px;
-}
-
-.demo-title h2:hover {
-	background-color: blanchedalmond;
 }
 
 .repo-link {
