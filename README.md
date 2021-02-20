@@ -34,6 +34,7 @@ Every example below is fully functional, you can test it by clicking the buttons
 <details>
 
 <details>
+  <summary>How to use Copii</summary
 - Head over to [Copii homepage](https://copii.vercel.app)
 
 - Scroll down to the form 
