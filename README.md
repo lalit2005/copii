@@ -33,6 +33,7 @@ Every example below is fully functional, you can test it by clicking the buttons
 ## How to use Copii 👇
 <details>
 
+<details>
 - Head over to [Copii homepage](https://copii.vercel.app)
 
 - Scroll down to the form 

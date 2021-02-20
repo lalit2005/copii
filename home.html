@@ -15,11 +15,26 @@
 		/>
 		<link href="./style/home.css" rel="stylesheet" type="text/css" />
 		<!-- ! Remove comment on analytics while developing -->
-		<!-- <script
+		<script
 			defer
 			src="https://static.cloudflareinsights.com/beacon.min.js"
 			data-cf-beacon='{"token": "7776e463e5de48bbbc267bf4796f6b1f"}'
 		></script>
+
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-BCXS8751JD"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-BCXS8751JD");
+		</script>
+
 		<script type="text/javascript">
 			(function (c, l, a, r, i, t, y) {
 				c[a] =
@@ -33,7 +48,8 @@
 				y = l.getElementsByTagName(r)[0];
 				y.parentNode.insertBefore(t, y);
 			})(window, document, "clarity", "script", "5bgsjy2h7f");
-		</script> -->
+		</script>
+		-->
 	</head>
 
 	<body>
