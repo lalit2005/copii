@@ -31,10 +31,9 @@ Every example below is fully functional, you can test it by clicking the buttons
 ---
 ---
 ## How to use Copii 👇
-<details>
 
 <details>
-  <summary>How to use Copii</summary
+  <summary>How to use Copii</summary>
 - Head over to [Copii homepage](https://copii.vercel.app)
 
 - Scroll down to the form 
@@ -64,6 +63,7 @@ Every example below is fully functional, you can test it by clicking the buttons
 - Click on any of the button to copy its markdown code. When a user clicks on any of button in README or any other rendered markdown file, user will be taken to `https://copii.vercel.app/?ct=hi`( for example ) and the text/code gets copied to clipboard there. Now, the user will be redirected back to same part webpage/github readme back with the help of `History API`
 
 - Paste the markdown code in your markdown file/readme file and you are good to go 😲
+
 </details>
 
 ---
