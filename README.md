@@ -4,6 +4,9 @@ Copy button for GitHub Readme files 🎉 🎉 🎉  Ready to use
 Every example below is fully functional, you can test it by clicking the buttons.
 
 ---
+
+[![](https://data.jsdelivr.com/v1/package/gh/lalit2005/copii/badge)](https://www.jsdelivr.com/package/gh/lalit2005/copii)
+
 ---
 ## Table of Contents
 
