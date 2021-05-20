@@ -1,258 +1,258 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-	text-align: center;
-	margin-top: 100px;
-	margin-left: 10px;
-	margin-right: 10px;
-	overflow-x: hidden;
-	scroll-behavior: smooth;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 ::-moz-selection {
-	background: #6effd8;
+  background: #6effd8;
 }
 
 ::selection {
-	background: #6effd8;
+  background: #6effd8;
 }
 
 .logo {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 h1 {
-	font-weight: 800;
-	margin-bottom: 28px;
+  font-weight: 800;
+  margin-bottom: 28px;
 }
 
 .blob-div {
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blob {
-	opacity: 0.5;
-	max-width: 300px;
-	z-index: -1;
-	position: absolute;
-	left: 10%;
-	top: 0;
+  opacity: 0.5;
+  max-width: 300px;
+  z-index: -1;
+  position: absolute;
+  left: 10%;
+  top: 0;
 }
 
 .heading {
-	font-size: 50px;
+  font-size: 50px;
 }
 
 .subheading {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .demo {
-	max-width: 65vw;
-	margin-bottom: 50px;
-	border: 3px solid black;
-	border-radius: 15px;
-	box-shadow: 1px 1px 150px 20px rgba(78, 78, 78, 0.577);
+  max-width: 65vw;
+  margin-bottom: 50px;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 1px 1px 150px 20px rgba(78, 78, 78, 0.577);
 }
 
 .demo hr {
-	margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .demo-title h2 a {
-	text-decoration: none;
-	max-width: 200px;
-	color: black;
-	padding: 10px;
+  text-decoration: none;
+  max-width: 200px;
+  color: black;
+  padding: 10px;
 }
 
 .repo-link {
-	font-size: 28px;
+  font-size: 28px;
 }
 
 .repo-link a {
-	text-decoration: none;
-	color: rgb(0, 89, 255);
+  text-decoration: none;
+  color: rgb(0, 89, 255);
 }
 
 .repo-link a:hover {
-	background-color: lightgreen;
-	padding: 3px;
-	border-radius: 3px;
-	margin-left: 3px;
-	margin-right: 3px;
+  background-color: lightgreen;
+  padding: 3px;
+  border-radius: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .cards {
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	max-width: 800px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 800px;
 }
 
 .card {
-	padding: 10px;
-	margin-bottom: 20px;
-	max-width: 250px;
-	border-radius: 10px;
-	border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  max-width: 250px;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 .card h3 {
-	color: blue;
+  color: blue;
 }
 
 .highlight {
-	background-color: rgb(179, 179, 255);
-	border-radius: 10px;
-	padding: 3px;
+  background-color: rgb(179, 179, 255);
+  border-radius: 10px;
+  padding: 3px;
 }
 
 h2 {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 form {
-	display: flex;
-	flex-direction: column;
-	margin-left: auto;
-	margin-bottom: 100px;
-	margin-right: auto;
-	font-size: 22px;
-	padding: 20px;
-	border-radius: 5px;
-	border: 1px solid black;
-	align-items: center;
-	max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-bottom: 100px;
+  margin-right: auto;
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  align-items: center;
+  max-width: 700px;
 }
 
 form div {
-	margin-bottom: 20px;
-	margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 input[type="checkbox"],
 label {
-	width: 20px; /*Desired width*/
-	height: 20px; /*Desired height*/
-	cursor: pointer;
+  width: 20px; /*Desired width*/
+  height: 20px; /*Desired height*/
+  cursor: pointer;
 }
 
 hr {
-	border: 0;
-	clear: both;
-	opacity: 0.2;
-	display: block;
-	width: 96%;
-	background-color: #000000;
-	height: 2px;
+  border: 0;
+  clear: both;
+  opacity: 0.2;
+  display: block;
+  width: 96%;
+  background-color: #000000;
+  height: 2px;
 }
 
 .copy-text-div p,
 .logo-url-div p {
-	font-weight: 400;
-	margin-bottom: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .alert {
-	padding: 5px;
-	border-radius: 5px;
-	font-size: 15px;
-	background-color: rgba(255, 0, 0, 0.185);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: rgba(255, 0, 0, 0.185);
 }
 
 textarea {
-	padding: 5px;
-	border-radius: 5px;
-	border: 1px solid black;
-	min-height: 50px;
-	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-	font-size: 18px;
-	width: 200px;
-	resize: vertical;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  min-height: 50px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  width: 200px;
+  resize: vertical;
 }
 
 #logo-url {
-	padding: 10px;
-	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-	font-size: 18px;
-	border-radius: 5px;
-	border: 1px solid black;
+  padding: 10px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 
 .submit-button-div button {
-	background-color: #ddf3fe;
-	padding: 10px;
-	border-radius: 5px;
-	border: 1px solid black;
-	cursor: pointer;
-	font-size: 18px;
+  background-color: #ddf3fe;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 .submit-button-div button:hover {
-	background-color: #7bd3ff;
+  background-color: #7bd3ff;
 }
 
 footer {
-	margin: -10px;
-	margin-top: 40px;
-	padding: 100px;
-	background-color: #ddf3fe;
-	color: #f09333;
+  margin: -10px;
+  margin-top: 40px;
+  padding: 100px;
+  background-color: #ddf3fe;
+  color: #f09333;
 }
 
 footer a {
-	text-decoration: none;
-	padding: 5px;
-	color: #405cfd;
-	text-decoration: underline;
+  text-decoration: none;
+  padding: 5px;
+  color: #405cfd;
+  text-decoration: underline;
 }
 
 .black-text {
-	color: #43850e;
-	text-decoration: underline;
+  color: #43850e;
+  text-decoration: underline;
 }
 
 .generated {
-	display: none;
-	margin-bottom: 100px;
+  display: none;
+  margin-bottom: 100px;
 }
 
 .generated h3 {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .generated .generated-buttons button {
-	display: flex;
-	flex-direction: column;
-	padding: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
 }
 .generated-buttons img {
-	margin-top: 20px;
-	cursor: pointer;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 @media (min-width: 480px) {
-	.blob {
-		left: 30%;
-	}
+  .blob {
+    left: 30%;
+  }
 }
 
 @media (min-width: 640px) {
-	.blob {
-		left: 40%;
-	}
+  .blob {
+    left: 40%;
+  }
 }
